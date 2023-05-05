@@ -64,13 +64,16 @@ const Demo = () => {
         setTimeout(() => setCopied(false), 3000);
     };
 
+    // handles the enter key press
     const handleKeyDown = (e) => {
         if (e.keyCode === 13) {
             handleSubmit(e);
         }
     };
 
+    // this is the main component that handles the state and the logic of the app
     return (
+        // the search bar and the history of the articles
         <section className='mt-16 w-full max-w-xl'>
             {/* Search */}
             <div className='flex flex-col w-full gap-2'>
@@ -84,6 +87,7 @@ const Demo = () => {
                         className='absolute left-0 my-2 ml-3 w-5'
                     />
 
+                    {/* the input field for the user to paste the article link */}
                     <input
                         type='url'
                         placeholder='Paste the article link'
@@ -93,6 +97,7 @@ const Demo = () => {
                         required
                         className='url_input peer' // When you need to style an element based on the state of a sibling element, mark the sibling with the peer class, and use peer-* modifiers to style the target element
                     />
+                    {/* this will be the submit button  */}
                     <button
                         type='submit'
                         className='submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700 '
