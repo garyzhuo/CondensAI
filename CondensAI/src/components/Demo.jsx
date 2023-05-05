@@ -1,6 +1,10 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { copy, linkIcon, loader, tick } from '../assets/assets';
+import { useLazyGetSummaryQuery } from '../services/article';
+
+const [getSummary, { error, isFetching }] = useLazyGetSummaryQuery();
+
 
 const Demo = () => {
     const [article, setArticle] = useState({
