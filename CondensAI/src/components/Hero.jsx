@@ -1,4 +1,4 @@
-import logo from '../assets/assets/logo.svg';
+import AI from '../assets/assets/newLogo.png';
 
 
 const Hero = () => {
@@ -6,8 +6,8 @@ const Hero = () => {
         <header className='w-full flex justify-center 
         items-center flex-col'>
             <nav className='flex justify-between
-            items-center w-full mb-10 pt-3'>
-                <img src={logo} alt='CondesAI_Logo'
+            items-center w-full mb-10 mt-5 pt-3'>
+                <img src={AI} alt='CondesAI_Logo'
                     className='w-28 object-contain' />
                 <button
                     type='button'
@@ -19,7 +19,7 @@ const Hero = () => {
             </nav>
             <h1 className='head_text'>
                 Summarize Articles with <br className='max-md:hidden' />
-                <span className='orange_gradient'>OpenAI GPT -4</span>
+                <span className='indigo_gradient'>OpenAI GPT -4</span>
             </h1>
             <h2 className='desc'>
 

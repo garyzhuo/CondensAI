@@ -114,3 +114,80 @@
 .summary_box {
   @apply rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-4;
 }
+
+.red_gradient {
+  @apply font-black bg-gradient-to-r from-red-600 to-pink-600 bg-clip-text text-transparent;
+}
+
+.green_gradient {
+  @apply font-black bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent;
+}
+
+.yellow_gradient {
+  @apply font-black bg-gradient-to-r from-yellow-600 to-amber-600 bg-clip-text text-transparent;
+}
+
+.teal_gradient {
+  @apply font-black bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent;
+}
+
+.orange_gradient {
+  @apply font-black bg-gradient-to-r from-orange-600 to-amber-600 bg-clip-text text-transparent;
+}
+
+.indigo_gradient {
+  @apply font-black bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent;
+}
+
+.lime_gradient {
+  @apply font-black bg-gradient-to-r from-lime-600 to-emerald-600 bg-clip-text text-transparent;
+}
+
+.purple_gradient {
+  @apply font-black bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent;
+}
+
+.pink_gradient {
+  @apply font-black bg-gradient-to-r from-pink-600 to-rose-600 bg-clip-text text-transparent;
+}
+
+.rose_gradient {
+  @apply font-black bg-gradient-to-r from-rose-600 to-red-600 bg-clip-text text-transparent;
+}
+
+.amber_gradient {
+  @apply font-black bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent;
+}
+
+.fuchsia_gradient {
+  @apply font-black bg-gradient-to-r from-fuchsia-600 to-purple-600 bg-clip-text text-transparent;
+}
+
+.violet_gradient {
+  @apply font-black bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent;
+}
+
+.cyan_gradient {
+  @apply font-black bg-gradient-to-r from-cyan-600 to-teal-600 bg-clip-text text-transparent;
+}
+
+.emerald_gradient {
+  @apply font-black bg-gradient-to-r from-emerald-600 to-green-600 bg-clip-text text-transparent;
+}
+
+.warm_gradient {
+  @apply font-black bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent;
+}
+
+.cool_gradient {
+  @apply font-black bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent;
+}
+
+.sunset_gradient {
+  @apply font-black bg-gradient-to-r from-red-600 to-amber-600 bg-clip-text text-transparent;
+}
+
+.rainbow_gradient {
+  @apply font-black bg-gradient-to-r from-red-600 via-yellow-600 to-blue-600 bg-clip-text text-transparent;
+}
+
